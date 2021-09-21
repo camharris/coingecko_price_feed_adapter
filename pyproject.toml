@@ -8,11 +8,11 @@ authors = ["Cameron Harris <charris@protonmail.ch>"]
 python = "^3.8"
 requests = "^2.26.0"
 fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
 
 [tool.poetry.dev-dependencies]
 pydantic = "^1.8.2"
 fastapi = "^0.68.1"
-typing = "^3.10.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
